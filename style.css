@@ -1,0 +1,73 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+*{
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  background-color: ##eee;
+
+}
+
+body{
+  padding: 10px 10px 10px 10px;
+  border: 2px solid orange;
+}
+
+header {
+  background-color: #ff8523;
+  width: auto;
+  padding: 0;
+  height: 150px;/*trying to add padding between the content & border */
+}
+
+header nav a { /*trying to style the nav links*/
+  color: white;
+  border: 2px solid white;
+  margin: 15px 3px;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+header a img {
+  margin-bottom: 20px;
+}
+
+h2, h3{
+  color: #1fabe5;
+  font-weight: bold;
+}
+
+ul{
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+
+table, td{
+  border: 2px solid #1fabe5;
+}
+
+thead{
+  color: white;
+  background-color: #1fabe5;
+  text-align: justify;
+  padding: 10px 5px 10px 5px;
+}
+
+td img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}

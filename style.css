@@ -5,7 +5,7 @@ font info:
 
 
 colors:
-    light gray - ##eee
+    light gray - #eee
     gray - #dddddd
     yellow - #ffd24a
     orange - #ff8523
@@ -15,29 +15,42 @@ colors:
 *{
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.6;
-  background-color: ##eee;
-
 }
 
 body{
-  padding: 10px 10px 10px 10px;
-  border: 2px solid orange;
+  border: 2px solid #ff8523;
+  margin: 10px auto 10px auto;
+  background-color: #fff;
+  width: 70%;
+  box-sizing: border-box;
 }
+
+div {
+  /*padding-top: 20px;*/
+  padding-bottom: 0px;
+}
+  /*background-color: white;*/
+/*}*/
 
 header {
   background-color: #ff8523;
   width: auto;
-  padding: 0;
-  height: 150px;/*trying to add padding between the content & border */
+  padding: 10px;
+  height: 150px;
+  box-sizing: border-box;   /*trying to add padding between the content & border */
 }
 
-header nav a { /*trying to style the nav links*/
-  color: white;
-  border: 2px solid white;
-  margin: 15px 3px;
-  border-radius: 5px;
+/*header nav*/.main_navigation a {  /*trying to style the nav links*/
+  color: #fff;
+  border: 2px solid #fff;
+  margin: 15px -1px;
+  border-radius: 10px;
   text-decoration: none;
   padding: 10px 20px;
+}
+#page_content{
+  padding: 20px;
+  background-color: #fff;
 }
 
 header a img {
@@ -49,25 +62,109 @@ h2, h3{
   font-weight: bold;
 }
 
+
 ul{
   font-weight: bold;
   padding-left: 20px;
+  padding-bottom: 50px;
+  border-bottom: 4px solid lightgrey;
 }
 
+table{
+  width: 100%;
+}
 
 table, td{
-  border: 2px solid #1fabe5;
+  border: 1px solid #046c97;
+  border-collapse: collapse;
+  /*width: auto;*/
 }
 
 thead{
   color: white;
   background-color: #1fabe5;
-  text-align: justify;
-  padding: 10px 5px 10px 5px;
+  text-align: left;
+  max-height: 30px;   /*correct??*/
+}
+
+tr, td {
+  padding-left: 4px;
+  height: 50px;
 }
 
 td img {
   width: 50px;
   height: 50px;
-  vertical-align: middle;
+  /*vertical-align: middle;*/
+  margin: auto auto;
+}
+
+tbody, td{
+  /*padding-top: 15px;*/
+  /*padding-bottom: 15px;*/
+  /*padding-left: 4px;*/
+  padding: 15px 10px;
+}
+
+label{
+  font-weight: bold;
+}
+
+.name{
+  background-color: #ff8523;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 15px;
+  height: 35px;
+  /*width: 85%;*/
+  /*margin: auto;*/
+}
+
+.name input{
+  height: 35px;
+  width:  140px;
+  margin-right: 20px;
+}
+
+.city_container{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /*background-color: #eee;*/
+  font-weight: bold;
+}
+
+.submit_container{
+  /*background-color: #eee;*/
+}
+
+#bio{
+  font-size: 18px;
+  width: 99%;
+  border-color: #1fabe5;
+  /*font-weight: bold;*/
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+#submit_button{
+  background-color: #1fabe5;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: white;
+  width: 80px;
+  height: 50px;
+  font-weight: bold;
+}
+
+form{
+  background-color: #eee;
+  /*padding-top: 25px;*/
+  border-radius: 5px;
+  /*padding-left: 25px;*/
+  /*padding-right: 25px;*/
+  padding: 25px;
+}
+body{
+  background-color: #dddddd;
 }
